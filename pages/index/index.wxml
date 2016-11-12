@@ -3,17 +3,24 @@
   <view  bindtap="bindViewTap" class="userinfo">
     <!--<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>-->
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <!--<image stc="../../image/wechat001.jpg"><image/>-->
+    
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view>
+    <image src="../../image/wechat001.jpg"></image>
   </view>
 </view>
 
 
 
-
+<!--
 <view class="container">
   
     <text class="userinfo-nickname">This is my first WeChat app</text>
  
 </view>
+-->
